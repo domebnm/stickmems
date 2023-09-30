@@ -21,12 +21,12 @@ public class TimeScaleGame : MonoBehaviour
     static float time = 3.0f;
     static float slowTimeScale = 0.1f;
     static float originalFixedDeltaTime = Time.fixedDeltaTime;
-
     static bool isRunning;
     public static float b;
 
     public static IEnumerator TimeScale()
     {
+        //проверяю, работает ли
         if(isRunning) { yield break; }
         isRunning = true;
 
