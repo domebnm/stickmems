@@ -23,7 +23,7 @@ public class TimeScaleGame : MonoBehaviour
     static float originalFixedDeltaTime = Time.fixedDeltaTime;
 
     static bool isRunning;
-
+    public static float b;
 
     public static IEnumerator TimeScale()
     {
