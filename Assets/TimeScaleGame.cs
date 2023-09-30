@@ -22,6 +22,10 @@ public class TimeScaleGame : MonoBehaviour
     static float slowTimeScale = 0.1f;
     static float originalFixedDeltaTime = Time.fixedDeltaTime;
     static bool isRunning;
+<<<<<<< HEAD
+=======
+    public static float b;
+>>>>>>> origin/main
 
     public static IEnumerator TimeScale()
     {
